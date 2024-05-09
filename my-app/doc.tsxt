@@ -1,0 +1,67 @@
+header componetnt
+Logo -> logo,tsx
+in header comp go to cource code -> import svg
+utils-> new file -> providers.tsx
+use client
+npm i next-ui/org-react go to its side and instal;l it 
+[inside Providers.tsx]
+-> import next ui in providers 
+
+-> import usePathamae 
+code ..
+
+-> in layout add provider 
+in home.tsx add header
+
+come in taolwind.css check double slash 
+
+--
+come to HEader.tsx
+ create NavItems.stx
+
+ come in configs -> contants.tsx
+ npm i jotai
+
+ import {atom} from jotai
+
+types.d.ts -> global import syntax
+
+icons.tsx -> icons
+npm i react-icons
+
+-- inside nav.items.tsx
+'use client'
+toolbar.jsx
+
+--> next styling 
+in tailwind.config.ysx -> nextui- url
+nad pulgins-> [tsx]
+
+-> in header folder -> in index.ts
+-> crwate Banner,tsx -> import it in home
+
+next.congif.mjs
+
+-> globals.css -> for animation -> 
+do work on banner
+->  custom font family
+->assets -> fonst from SC
+in layout -> import localFont deom 
+remove inter fons
+const clasdDisplay 
+in body -> 
+\
+-- tailwind.confu-> add fontfamily
+
+in banner import button
+
+in modules index.ts
+
+---- 
+Branding
+modules/home/featres/Branding
+npm i react-fast-marquee
+inside -> branding.tsx
+--
+benifits.tsx in features till 54:34
+
