@@ -1,5 +1,5 @@
 header componetnt
-Logo -> logo,tsx
+Logo -> logo,tsx (check github Repo)
 in header comp go to cource code -> import svg
 utils-> new file -> providers.tsx
 use client
@@ -62,6 +62,8 @@ Branding
 modules/home/featres/Branding
 npm i react-fast-marquee
 inside -> branding.tsx
+
+
 --
 benifits.tsx in features till 54:34
 
