@@ -8,7 +8,7 @@ npm i next-ui/org-react go to its side and instal;l it
 -> import next ui in providers 
 
 -> import usePathamae 
-code ..bb
+code ..bbnryt
 
 -> in layout add provider 
 in home.tsx add header
