@@ -1,19 +1,19 @@
 "use client";
 
-// import { useUser } from "@clerk/nextjs";
-// import { Button } from "@nextui-org/react";
+import { useUser } from "@clerk/nextjs";
+import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
 
 const Toolbar = () => {
-//   const { user } = useUser();
+  const { user } = useUser();
 
   return (
     <>
-      {/* <Button color="primary" className="text-lg">
+      <Button color="primary" className="text-lg">
         Start Trial
-      </Button> */}
-      {/* {user ? (
+      </Button> 
+      {user ? (
         <>
           <Link href={"/dashboard"}>
             <Image
@@ -27,7 +27,7 @@ const Toolbar = () => {
         </>
       ) : (
         <Link href={"/sign-in"}>Login</Link>
-      )} */}
+      )}
     </>
   );
 };

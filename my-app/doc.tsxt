@@ -67,3 +67,34 @@ inside -> branding.tsx
 --
 benifits.tsx in features till 54:34 next target -> 2 hour
 
+-----
+
+
+
+auh 
+.env in root dir in my-app -> next publick cerk and publishable key
+in layout.jsx -> wrap it in <clerkProvider >
+
+src -> midddleware.ts -> add 
+-> app -> new solder -> sign-up and sign-in folder 
+-> [[...sign-in]] page.tsx
+-> [[...sign-up]] page.tsx 
+
+-> in configurations turn on the name field
+-> i nproviders -> useUser()
+-> accoridng to user -> toolbar.tsx
+--------
+modules  folder -> dashboard folder -> 
+-> dashboard folfder index.tsx
+inside dahsborad folder-> page.tsx 
+
+inside dashboard folder -> elements folder -> main folder -> main.tsx
+
+impoer <Main /> 
+now sryle main component
+
+-> utils _> next ui provider 
+DashbaordsSidebar inside provider.tsx
+
+making this dashbaord sidebar in widgets folder ->
+Dashgabord -> make it client side comp
