@@ -99,3 +99,43 @@ DashbaordsSidebar inside provider.tsx
 making this dashbaord sidebar in widgets folder ->
 Dashgabord -> make it client side comp
 setup
+
+
+---#### 13 June
+set up dahsboard.sidebar 
+-> custom hook -> shared -> hhoks 
+useROuteChnage.tsx
+-> move to dashboard.items
+
+----code till side bar footer
+create sidebarfooter.tsx
+
+-> back to dashboarditems
+-> logout hanlder  function
+
+----
+UserPlan component
+
+--
+again add Dashboraditems wiht bottom compoent
+---
+
+in main.tsxadd paargarh 
+Right side compoenent
+
+creation of DahsboardOveriview DasgboardOverviewCard
+for now hardcode some values
+
+
+SubscribersChart.tsx
+npm i recharts
+creating interface -> 
+for now static data
+
+--
+back to main
+npm i react-hot-toast
+
+add toaster in providers
+
+--------
