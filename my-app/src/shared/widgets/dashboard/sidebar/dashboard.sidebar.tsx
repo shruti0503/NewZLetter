@@ -3,8 +3,12 @@ import { useUser } from '@clerk/nextjs'
 
 const DashboardSidebar = () => {
   return (
-    <div>
-      
+    <div className='p-2'>
+      <div className='p-2 flex items-center'>
+
+      </div>
+
+      DashboardSidebar
     </div>
   )
 }

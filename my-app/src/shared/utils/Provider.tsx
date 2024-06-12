@@ -15,26 +15,25 @@ export default function Providers({children}:ProviderProps){
 
     return (
         <NextUIProvider>
-           {
-             pathname !== "/dashboard/new-email" && 
-             pathname !=="/" && pathname !=="/sign-up" &&
-             pathname !=="/subscribe" && pathname!=="/sign-in" ?(
-                <div className="w-full flex">
-                    <div className="w-[290px] h-screen overflow-y-scroll">
-                        <DashboardSidebar />
-
-                    </div>
-
-                </div>
-
-             ):(
-                <> {children}</>
-             )
-
-            
- 
-           }
-        </NextUIProvider>
+        {
+        // pathname !== "/dashboard/new-email" &&
+        // pathname !== "/" &&
+        // pathname !== "/sign-up" &&
+        // pathname !== "/subscribe" &&
+        // pathname !== "/success" &&
+        pathname !== "/sign-in" ? (
+          <div className="w-full flex">
+            <div className="w-[290px] h-screen overflow-y-scroll">
+              <DashboardSidebar />
+              tues
+            </div>
+            {children}
+          </div>
+        ) : (
+          <>{children} opwdwqed</>
+        )}
+        {/* <Toaster position="top-center" reverseOrder={false} /> */}
+      </NextUIProvider>
     )
 
 }

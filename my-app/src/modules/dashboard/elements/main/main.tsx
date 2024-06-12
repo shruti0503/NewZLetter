@@ -16,10 +16,12 @@ const Main=()=>{
 
             </p>
 
-            <div className="w-full flex">
+            {/* <div className="w-full flex">
 
                 <div className="w-[65%] min-h-[88vh] pr-5">
                     <br />
+
+                    
 
                     <br />
 
@@ -29,7 +31,7 @@ const Main=()=>{
 
                 </div>
 
-            </div>
+            </div> */}
 
 
         </div>
