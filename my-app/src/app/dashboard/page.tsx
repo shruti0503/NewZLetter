@@ -3,7 +3,7 @@ import Dashboard from '@/modules/dashboard/elements/dashboard'
 const Page = () => {
   return (
     
-        <Dashboard />
+    <Dashboard />
       
    
   )
