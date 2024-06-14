@@ -1,0 +1,53 @@
+Sure, let's explain it with a simple anecdote.
+
+### The Story of Emma and Her Magic Notebook
+
+Emma loves to keep track of her tasks for the day in a magic notebook. This notebook has a special feature: it can update its pages automatically and share the current task with all her family members in real-time. Everyone can see what task is currently active and can also update it if needed.
+
+#### The Magic Notebook
+
+1. **The Notebook (Jotai):** Think of Jotai as this magic notebook. It keeps the list of tasks and the current active task.
+   
+2. **The Current Task (Atom):** Inside the notebook, there is a page called `sideBarActiveItem`. This page shows the current task Emma is working on.
+
+#### Emma's Routine
+
+Emma has a helper, `useRouteChange`, that she uses to interact with the notebook.
+
+- **Checking the Current Task:** Whenever Emma wants to see what her current task is, she asks her helper.
+- **Changing the Task:** If she finishes a task or wants to switch to a new one, she tells her helper to update the notebook.
+
+Here's how it looks in a day-to-day scenario:
+
+### In the Code World
+
+1. **Helper Function (useRouteChange):**
+   ```javascript
+   const useRouteChange = () => {
+       const [activeRoute, setActiveRoute] = useAtom(sideBarActiveItem);
+       return { activeRoute, setActiveRoute };
+   }
+   ```
+
+2. **Using the Helper:**
+   Emma writes a small script (like a recipe) to use her helper:
+
+   ```javascript
+   const { activeRoute, setActiveRoute } = useRouteChange();
+   
+   // Check the current task
+   console.log("Current Task: " + activeRoute);
+
+   // Update the task
+   setActiveRoute("Do the laundry");
+   ```
+
+### How it Works
+
+- **Checking the Task:** When Emma wants to know what her current task is, she uses `activeRoute`, which reads the current page in the notebook.
+- **Updating the Task:** When Emma wants to switch tasks, she uses `setActiveRoute("Do the laundry")`, which updates the page in the notebook.
+
+### Summary
+
+Imagine Emma's magic notebook is the state of your app, and `useRouteChange` is a way to read from and write to that notebook. 
+It keeps everyone (all components) on the same page about what the current task (or active route) is, ensuring everything is up-to-date and synchronized.
