@@ -138,4 +138,93 @@ npm i react-hot-toast
 
 add toaster in providers
 
---------
+-------- # 15 june
+
+dashbpard -> write folfer 
+ make write modules  inside modules folder
+write.tsx-> make required states and add required icons and others
+
+--
+in app new folder -> new-email  inside dashbaord folder
+add page.tsx
+
+inside it  work it 
+
+ cresatiomn of emaileditor
+--
+
+Emaileditor in shared -comp- ediotr -email editor.tsx
+unlayer.come
+
+npm i  react-email-editor
+
+ina  ssests folder -> mails  folder -> file default.tsx paste from scenario
+
+for now make the loading state false
+
+
+
+
+
+#######
+--
+db
+->email.model.tsx
+->actions-> save.emails.tsx
+
+in email.ediot.tsx-> save draft fuincytionlaity 
+
+--
+in actions new -> get.emails.ts
+
+'use server'
+
+--
+then come in write modiles write.tsx
+
+create new functions -> findemails
+email, setemails statein useeffect 
+
+// fetching all saved emails  
+{
+    emails && emails.map(
+
+    )
+}
+
+function deleteHandler
+
+--
+in actions folder -
+email.email-details.tsx
+
+
+----
+news Letter Subscribing features
+
+make in email.editor.tsx
+
+ViewSite feature
+in app-> models -> dahsbaord-> main .tsxadd
+{process.env.} 
+
+in env NEXT PIBLIC WEBSITE URL 
+
+-> app subscribe -> page.tsx
+ work here 
+-> subscriber.model.ts
+-> in actions -> add.subscribe.ts
+
+zero bounce api
+
+bounce -> iuf the user is trying to enter the input that is not exisiting called bounce mails
+zero bounce.net
+
+in utils -> new folder zerobouncapi.tsx
+
+
+-- come back to add.subscribe.ts
+-- then come to page.tsx of subscribe route
+
+--ANALYTICS
+DASHBOARD -> flder audience -> page.tsx
