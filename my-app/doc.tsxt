@@ -228,3 +228,44 @@ in utils -> new folder zerobouncapi.tsx
 
 --ANALYTICS
 DASHBOARD -> flder audience -> page.tsx
+
+subscribersData -> shared comp dash data susb 
+actiosn-> get.susbcribers.ts
+
+come back in susbcribesdata
+
+m,aking hook-> useSubscribesData [coz used muptlile times]
+
+copy columns from sc
+
+npm i timeago.js @mui/x-data-grid @mui/material
+
+
+--
+in main.tsx
+int utils analystics.generatit.tsx
+
+-- in actions Subscriber.analytics.tsx
+
+in susbscribers.chart.tsx we can comment out ststaic data , make it dynamic now
+add loader
+-- useSubscriberAnalytics.tsx hook
+in 
+-- in dashboardoverview card ->  useSubscriberAnalytics
+implement %age as well
+
+
+#######aws
+
+utils email.sender.ts
+
+npm i aws-sdk nodemailer
+useremail string array , as we can send mails to multiple people
+
+
+-- after setting up Email newsletter
+modules -> editor call await and sendMail function
+
+--> deleting email draft
+
+in deleteHandler
