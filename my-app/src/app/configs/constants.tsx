@@ -99,7 +99,7 @@ export const sideBarItems: DashboardSideBarTypes[] = [
   {
     title: "Write",
     url: "/dashboard/write",
-    icon: ICONS.write,
+  icon: ICONS.write,
   },
   {
     title: "Grow",
