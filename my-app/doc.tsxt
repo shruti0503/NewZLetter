@@ -267,7 +267,7 @@ useremail string array , as we can send mails to multiple people
 modules -> editor call await and sendMail function
 
 --> deleting email draft
-
+\\\
 in deleteHandler
 
 
